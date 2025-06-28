@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin:0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ded{
+    display: flex;
+    justify-content: space-between;
+}
+.ded a{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: red;
+    color:white;
+}
+article{
+    width: 400px;
+}
+
+.ded2{
+    background: radial-gradient(50% 50% at 50% 50%, #ff7f34 0%, #FEB24F 100%);
+    border-radius: 63px 0px 0px 0px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #A6AF62;
+}
+nav a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: #D1DC7E;
+}
+h2{
+    background-color: red;
+}
+.pizza{
+    display: flex;
+    background-color: #EEE14F;
+}
+.kartinka{
+    width: 100%;
+    display: flex;
+    background-color: #D1DC7E;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    background-color: #FD840C;
+}
+.lol{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+main h1{
+    text-align: center;
+}
+
+.pizza{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.pizza article{
+    margin:10px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pizza article img:hover{
+    transition:3s linear ;
+    transform:rotate(360deg);
+}
+    
+.pizza article:hover{
+    background-color: #fffd84;
+    transition:0.3s linear;
+}
+
+.class{
+    display: flex;
+
+}
+
+.vidguki{
+    background-color: #EEE14F;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.pizza article a{
+    text-decoration: none;
+    color:red;
+    background-color: #EEE14F;
+    padding: 5px 10px;
+    margin-left:90px;
+}
+.pizza article a:hover{
+    text-decoration: underline;
+}
