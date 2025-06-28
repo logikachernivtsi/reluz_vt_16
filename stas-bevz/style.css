@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #F18C3A 0%, #CF7832 50.48%, #8B5121 100%);
+}
+
+.about{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+}
+
+article img{
+    margin:10px;
+}
+
+.blue{
+    background: linear-gradient(180deg, #65C5C8 0%, #356769 68.75%, #326062 100%);
+}
+
+.bober{
+    display: flex;
+}
+
+.tiktok {
+    padding: 2px 500px;
+    background-color: B1ACAC;
+}
+
+.instagram {
+    padding: 2px 500px;
+    background-color: D9D9D9 ;
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+}
+nav a {
+    background-color: #2C3060;
+    padding:4px 100px;
+    margin:10px;
+    color:white;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    background-color: #16182f;
+    transition:0.3s ease-in; 
+    transform:translateX(50px);
+}
+
+div {
+    padding:2px 300px;
+}
+
+
+main p {
+    text-align: justify;
+    font-size:20px;
+}
+
+h1{
+    font-size:32px;
+    text-align: center;
+    color:#2C3060;
+    padding: 15px;
+}
+
+.catalog{
+     display: flex;
+    justify-content: space-between;
+}
+
+.catalog article{
+    width: 400px;
+     margin:30px;
+     padding: 20px;
+}
+
+.catalog article:hover{
+    background-color: #16182f;
+    color:white;
+    border-radius: 10px;
+     transition:0.3s ease-in; 
+}
+
+.catalog a{
+    position:relative;
+    top:0;
+    padding: 10px 130px;
+    margin:10px;
+    text-align: center;
+    border-radius:20px;
+    background-color: #65C5C8;
+    color: black;
+    text-decoration:none;
+}
+
+.catalog a:hover{
+    background-color: #407a7c;
+}
+.reviews{
+     margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer{
+    background-image:linear-gradient(orange,black);
+    padding: 10px;
+}
+
+
+.footer{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding: 10px;
+    border-top:1px solid #F0D397;
+    align-items: center;
+}
+
+.end a, .end p{
+    color: #F0D397;
+}
+
