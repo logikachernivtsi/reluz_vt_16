@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+}
+body {
+    font-family: sans-serif;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+main{
+    background-color: #C4C4C4;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+p{
+    text-align:center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover{
+   color:rgb(188, 201, 248);
+   background-color: rgb(6, 57, 114);
+   border-radius: 5px;
+}
+
+.Kataloj article{
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: #F8F8F8;
+    margin:20px;
+    border-radius: 5px;
+}
+
+.korzina{
+    background-color: #C4C4C4;
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.korzina:hover{
+    background-color: #7f7f7f;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end{
+    padding: 10px;
+    background-color: #7f7f7f;
+}
+
+footer a{
+   color: black;
+   text-decoration: none;
+   border-bottom:2px solid black;
+   margin: 15px;
+}
