@@ -86,6 +86,7 @@ header img{
  font-size: 2em;
  font-weight: bold;
  margin-bottom: 40px;
+ dispaly: flex;
 }
 
 .popular{
@@ -99,17 +100,11 @@ header img{
     font-family: sans-serif;
     justify-content: space-around;
 }
-
-.iak article{
-    width:400px;
-    text-align: center;
-    align-items: center;
-}
 .icon1{
     width: 70px;
     display:flex;
     position: relative;
-    left: 150px;
+    left: 45px;
     margin: 30px;
    
 }
@@ -117,14 +112,14 @@ header img{
     width: 80px;
     display:flex;
      position: relative;
-    left: 150px;
+    left: 50px;
     margin: 30px;
 }
 .icon3{
     width: 80px;
     display:flex;
     position: relative;
-    left: 150px;
+    left: 80px;
     margin: 30px;
 }
 .h1yak{
@@ -161,17 +156,8 @@ header img{
     display: flex;
     justify-content: space-between;
 }
-.bilshe{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    color:black;
-    padding: 10px 20px;
-    background-color: white;
-    border-radius: 4px;
-}
-.ekskurs, .ekskurs1{
+
+.ekskurs{
     display: flex;
     justify-content: space-around;
     margin:30px;
@@ -179,7 +165,7 @@ header img{
     text-align: center;
 }
 
-.ekskurs article, .ekskurs1 article{
+.ekskurs article{
     width:300px;
     padding: 20px;
     border-radius: 10px;
@@ -198,26 +184,10 @@ header img{
 }   
 
 .ekskurs article:nth-child(4){
-    background: linear-gradient(180deg, #606176 0%, #ADA8A8 100%);
-}   
-
-.ekskurs1 article:first-child{   
-    background: linear-gradient(180deg, #BFC87F 0%, #B4B4B4 100%);
-}
-
-.ekskurs1 article:nth-child(2){
-    background: linear-gradient(180deg, #A8D6EA 0%, #ED76CF 100%);
-}   
-
-.ekskurs1 article:nth-child(3){
     background: linear-gradient(180deg, #5F76C3 0%, #509939 100%);
 }   
 
-.ekskurs1 article:nth-child(4){
-    background: linear-gradient(180deg, #9BCECB 0%, #949494 100%);
-}  
-
-.popular .menu{
+.popular div{
     display: flex;
     justify-content: space-around;
     border-bottom:2px solid black;
@@ -228,11 +198,9 @@ a{
     text-decoration: none;
     color:black;
 }
-
 .buy:hover{
  background-color: wheat;
  border-radius: 3px;
- padding: 10px;
 }
 .popular h1{
   text-align: center;  
@@ -261,34 +229,87 @@ a{
     justify-content: space-between;
 }
 .photo1{
-    width:500px;
-    padding: 40px;
-}
-
-.reviews{
-    display: flex;
-    margin:20px;
-    justify-content: space-evenly;
-}
-.text{
-    text-align: center;
-    padding: 50px;
-}
-
-.reviews article{
     width:400px;
-    padding: 20px;
-    background-image: linear-gradient(#646AD4,#FFFFFF);
-    border-radius: 10px;
+    padding: 40px ;
 }
-
-footer{
+.vidgukh1{
+    text-align: center;
+}
+.vidgukh2{
+    text-align: center;
+    font-size:13px;
+}
+.vidguk1{
+   background: linear-gradient(180deg,#646AD4 0%, rgb(211, 202, 202) 100%);
+   border-radius: 10px;
+}
+.Max{
+    display:flex;
+    justify-content: space-beetwen;
+    }
+    .O5{
+       position:relative;
+       left: 50px;
+       display: inline block;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .Max img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+    }
+    .vidguk{
+        display:flex;
+        justify-content: space-around;
+    }
+    .Tomas{
+    display:flex;
+    justify-content: space-beetwen;
+    }
+    .O52{
+       position:relative;
+       left: 50px;
+       display: inline block;
+    }
+    .text2{
+        font-size: 15px;
+    }
+    .Tomas img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+    }
+    .vidguk2{
+   background: linear-gradient(180deg,#E56969 0%, rgb(228, 220, 220) 100%);
+border-radius: 10px;
+    }
+   .Alina{
+    display:flex;
+    justify-content: space-beetwen;
+    }
+    .O53{
+       position:relative;
+       left: 50px;
+       display: inline block;
+    }
+    .text3{
+        font-size: 15px;
+    }
+    .Alina img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+    }
+    .vidguk3{
+   background: linear-gradient(180deg,#D74BA3 0%, rgb(228, 220, 220) 100%);
+   border-radius: 10px;
+   }
+   footer{
+    background-color: #509939;
+   }
+   .footer{
     display: flex;
-    justify-content: space-between;
-    background-color: #57944B;
-    padding: 20px;
-}
-
-footer img{
-    border-radius: 100%;
-}
+    justify-content: space-around;
+   }
