@@ -1,131 +1,117 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
-
 }
 
 body {
-    font-family: sans-serif;
-    background-image: linear-gradient(180deg, rgb(134, 97, 53) 0%, #ffd27f 50.96%, rgb(255, 238, 206)
-    , #ffffff 100%);
-    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ded{
+    display: flex;
+    justify-content: space-between;
+}
+.ded a{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: red;
+    color:white;
+}
+article{
+    width: 400px;
 }
 
+.ded2{
+    background: radial-gradient(50% 50% at 50% 50%, #ff7f34 0%, #FEB24F 100%);
+    border-radius: 63px 0px 0px 0px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #A6AF62;
+}
+nav a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
 
 header{
-    height:300px;
-    display: flex;
-    font-size: 70px;
-    color: white;
-    align-items:center;
-    justify-content: space-around;
-    border-bottom: 10px solid whitesmoke;
+    background-color: #D1DC7E;
 }
-
-h1 {
-    font-family: "Lemon", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size:150px;
-    line-height: 84px;
-    color: #FFFFFF;
-    -webkit-text-stroke: 7px whitesmoke;
-}
-
-main {
-
-}
-
-header img{
-    border-radius: 12px;
-    border: 4px solid whitesmoke;
-}
-
 h2{
-    font-size: 50px;
+    background-color: red;
+}
+.pizza{
+    display: flex;
+    background-color: #EEE14F;
+}
+.kartinka{
+    width: 100%;
+    display: flex;
+    background-color: #D1DC7E;
     justify-content: space-around;
-    color:white;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FD840C;
+}
+.lol{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+main h1{
+    text-align: center;
+}
+
+.pizza{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.pizza article{
+    margin:10px;
     padding: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
-.catalog img{
-    border-radius: 20px;
-    border: 12px solid white;
-}
-
-.catalog {
-    padding: 40px;
-    align-content: center;
-  border-radius: 15px;
-  height: 250px; 
-  background-color: rgb(138, 110, 70);
-  display:flex ;
-  justify-content: space-evenly;
-  margin: 40px;
-}
-p {
-    color:rgb(0, 0, 0);
-    border-radius: 5px;
     background-color: white;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    margin: -4px auto;
-    font-size: 25px;
-}
-.vidgyki {
-    font-size: 100px;
-    color:rgb(138, 110, 70);
-    text-align: center;
-    border: 4px solid rgb(138, 110, 70);
-    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
-.tabluchkavidgykiv {
-   font-size: 50px;
-   color: rgb(138, 110, 70);
-   background-color: white;
-   margin: 20px;
-   padding: 5px;
-   border-radius: 10px;
+.pizza article img:hover{
+    transition:3s linear ;
+    transform:rotate(360deg);
+}
+    
+.pizza article:hover{
+    background-color: #fffd84;
+    transition:0.3s linear;
 }
 
-footer {
-    border-top: 10px solid rgb(138, 110, 70);
-    display :flex;
+.class{
+    display: flex;
 
 }
 
-.footerlogo {
-    margin-top: 100px;
-    margin-left: 70px;
-    border:10px solid #FFFFFF;
-    border-radius: 12px;
-    background-color:rgb(138, 110, 70) ;
+.vidguki{
+    background-color: #EEE14F;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
-.poshta{
-    background-color: rgb(138, 110, 70);
-    width: 400px;
-    height: 100px;
-    border-radius: 12px;
-    font-size: 32px;
-    margin-top: 100px;
-    margin-left: 120px;
-    padding-left: 50px;
-    padding-top: 20px;
+.pizza article a{
+    text-decoration: none;
+    color:red;
+    background-color: #EEE14F;
+    padding: 5px 10px;
+    margin-left:90px;
 }
-
-.instagram {
-    background-color: rgb(138, 110, 70);
-    width: 400px;
-    height: 100px;
-    border-radius: 12px;
-    font-size: 32px;
-    padding-left: 50px;
-    padding-top: 20px;
-    margin-left: -450px;
-    margin-top: 300px;
+.pizza article a:hover{
+    text-decoration: underline;
 }
-
