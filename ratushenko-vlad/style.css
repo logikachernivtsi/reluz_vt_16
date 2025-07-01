@@ -51,7 +51,7 @@ h2{
 
 .catalog img{
     border-radius: 20px;
-    border:20px solid white;
+    border: 12px solid white;
 }
 
 .catalog {
@@ -102,10 +102,11 @@ footer {
     margin-left: 70px;
     border:10px solid #FFFFFF;
     border-radius: 12px;
+    background-color:rgb(138, 110, 70) ;
 }
 
 .poshta{
-    background-color: #FFFFFF;
+    background-color: rgb(138, 110, 70);
     width: 400px;
     height: 100px;
     border-radius: 12px;
@@ -117,7 +118,7 @@ footer {
 }
 
 .instagram {
-    background-color: #FFFFFF;
+    background-color: rgb(138, 110, 70);
     width: 400px;
     height: 100px;
     border-radius: 12px;
